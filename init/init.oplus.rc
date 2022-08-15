@@ -130,6 +130,9 @@ on boot
     # TOF
     chown cameraserver cameraserver /dev/stmvl53l1_ranging
 
+    # OIS
+    chown cameraserver cameraserver /sys/kernel/ois_control/dump_registers
+
 on property:ro.boot.prjname=*
     # Display
     setprop ro.separate.soft ${ro.boot.prjname}
