@@ -137,6 +137,7 @@ BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_KERNEL_ADDITIONAL_FLAGS += NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip
 TARGET_KERNEL_SOURCE := kernel/realme/sm8250
 TARGET_KERNEL_CONFIG := vendor/sm8250_defconfig
+BOARD_KERNEL_CMDLINE += kpti=off
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
