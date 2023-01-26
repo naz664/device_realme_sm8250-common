@@ -12,6 +12,9 @@ persist.vendor.btstack.enable.twsplussho=true
 # Dexopt
 dalvik.vm.dex2oat64.enabled=true
 
+# Brightness Curve
+persist.sys.brightness.low.gamma=true
+
 # Display
 debug.sf.enable_hwc_vds=1
 debug.sf.latch_unsignaled=1
