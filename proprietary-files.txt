@@ -141,6 +141,29 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # Camera
 odm/etc/vintf/manifest/manifest_oplus_cameraextension.xml
+odm/etc/camera/pf/PerfectColorSet/normal/colorLut0
+odm/etc/camera/pf/PerfectColorSet/normal/colorLut1
+odm/etc/camera/pf/PerfectColorSet/normal/colorLut10
+odm/etc/camera/pf/PerfectColorSet/normal/colorLut11
+odm/etc/camera/pf/PerfectColorSet/normal/colorLut12
+odm/etc/camera/pf/PerfectColorSet/normal/colorLut13
+odm/etc/camera/pf/PerfectColorSet/normal/colorLut14
+odm/etc/camera/pf/PerfectColorSet/normal/colorLut15
+odm/etc/camera/settings_fdc_lite.txt
+odm/etc/camera/settings_fdc.txt
+odm/etc/camera/singleblur/license_release.license
+odm/etc/vintf/manifest/manifest_oplus_cameraextension.xml
+odm/etc/vintf/manifest/manifest_oplus_cammidasservice.xml
+odm/lib64/jcos_nq_client.so
+odm/lib64/libCNamaSDK_vendor.so
+odm/lib64/libFaceBeautyJni.so
+odm/lib64/libNamaWrapper.so
+odm/lib64/libsharebuffer_impl.so
+odm/lib64/libsharebuffer.so
+odm/lib64/ls_nq_client.so
+odm/lib64/libchrome.so
+odm/lib64/lib_cryptoeng_api.so
+vendor/lib64/camera/components/com.qti.stats.haf.so
 odm/lib/libDeVIS.so
 odm/lib/libaiboost_sr.so
 odm/lib/libc++_shared.so
@@ -848,7 +871,7 @@ system_ext/lib64/lib-imsvt.so|38b39cafe351be5abc7b6ae5055ea1f390032502
 system_ext/lib64/lib-imsvtextutils.so|16bed08e80919635fcb7ace934bd5f16f059c182
 system_ext/lib64/lib-imsvtutils.so|9e45b76b14600df92782e6c8213af0dcddbe80be
 system_ext/lib64/libdiag_system.so|35bace09ba74af348b9530fb02cf7088c90a44fd
-system_ext/lib64/libimscamera_jni.so|ff3d65093f5bf19fba95798b0a121ee510b0f72e
+system_ext/lib64/libimswcamera_jni.so|ff3d65093f5bf19fba95798b0a121ee510b0f72e
 system_ext/lib64/libimsmedia_jni.so|9f192af40439abb04d5d5f0f3de5b772c9381114
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|0c11ff5a7a671073ee40e17d46aa8b7acbf1dc0a
 system_ext/priv-app/ims/ims.apk|f0d834acbc77e7830459e0246f5073e1b9ba8657
