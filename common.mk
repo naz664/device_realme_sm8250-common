@@ -229,6 +229,7 @@ PRODUCT_PACKAGES += \
     init.oplus.hw.rc \
     init.oplus.hw.rc.recovery \
     init.oplus.rc \
+    init.realme.rc \
     init.oplus.sh \
     init.oplus.touch.rc \
     init.qcom.early_boot.sh \
