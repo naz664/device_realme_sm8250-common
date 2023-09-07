@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- boolean indicating whether the WiFi chipset has 6GHz band support -->
-    <bool translatable="false" name ="config_wifi6ghzSupport">true</bool>
     <!-- Indicates that 11ax mode is supported on this device
            Note that if this flag is set to true, then 11ax is assumed to be supported.
            However, if it is left to the default value of false, the 11ax support will
