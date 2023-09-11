@@ -191,6 +191,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.1-service.oplus
 
+# KProfiles
+PRODUCT_PACKAGES += \
+    KProfiles
+
+
 # Light
 PRODUCT_PACKAGES += \
     android.hardware.light-service.oplus
