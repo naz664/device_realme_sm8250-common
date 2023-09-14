@@ -1,0 +1,28 @@
+From 7efe5b3d359e7de017d67a0aedacbf3e72798dc4 Mon Sep 17 00:00:00 2001
+From: notakbuzz <74129681+notakbuzz@users.noreply.github.com>
+Date: Sun, 30 Apr 2023 07:03:33 +0545
+Subject: [PATCH]  sm8250-common: Disable debug.sf.latch_unsignaled
+
+ debug.sf.latch_unsignaled - This causes SurfaceFlinger to latch   buffers
+ even if their fences haven't signaled
+
+* Disabling this helps reduces notification QS lag, UI performance is not impacted.
+
+- Unicote:
+   Also fixes live wallpapers lags
+---
+ vendor.prop | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/vendor.prop b/vendor.prop
+index 062b2d7b..5da39130 100644
+--- a/vendor.prop
++++ b/vendor.prop
+@@ -231,6 +231,7 @@ debug.sf.disable_backpressure=1
+ debug.sf.enable_transaction_tracing=false
+ debug.sf.hw=1
+ debug.sf.auto_latch_unsignaled=true
++debug.sf.latch_unsignaled=0
+ persist.demo.hdmirotationlock=false
+ debug.sf.treat_170m_as_sRGB=1
+ debug.sf.predict_hwc_composition_strategy=0
